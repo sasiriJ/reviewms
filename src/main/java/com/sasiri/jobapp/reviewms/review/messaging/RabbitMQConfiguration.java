@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitMQConfiguration {
     @Bean
     public Queue companyRatingQueue(){
-        return new Queue("CompanyRatingQueue");
+        return new Queue("companyRatingQueue");
     }
     @Bean
     public MessageConverter messageConverter(){
